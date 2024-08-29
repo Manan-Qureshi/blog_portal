@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <style>
+      body {
+         background-image: url(/blog_portal/img/Background.jpg);
+         /* height: 600px; */
+      }
+
+      .icon {
+         font-size: 180px;
+      }
+
+      .Blog {
+         font-size: 40px;
+         position: relative;
+         bottom: 155px;
+         left: 170px;
+         color: white;
+        
+      }
+
+      .container {
+         width: 700px;
+         height: 250px;
+         margin: 90px auto;
+         color: white;
+         font-size: 20px;
+      }
+
+      h1 {
+         font-family: cursive;
+         position: relative;
+         bottom: 110px;
+         text-align: center;
+         font-size: 76px;
+         display: block;
+         width: 700px;
+         margin: 0px auto;
+      }
+
+      form input[type='text'] {
+         padding: 15px 45px;
+         font-size: 20px;
+         background: transparent;
+         color: white;
+      }
+
+      form input[type='password'] {
+         padding: 15px 45px;
+         font-size: 20px;
+         background: transparent;
+         color: white;
+      }
+
+      .login {
+         border-radius: 50px;
+         text-align: center;
+         display: block;
+         width: 364px;
+         padding: 15px 50px;
+         font-size: 20px;
+         position: relative;
+         bottom: 28px;
+         filter: invert(100%);
+      }
+
+      button {
+         font-size: 20px;
+         border-radius: 50px;
+         padding: 9px 30px;
+         background: transparent;
+         color: rgb(15, 15, 15);
+      }
+
+      .footer {
+         display: flex;
+         border: 3px solid black;
+         width: 100%;
+         align-items: stretch;
+         flex-direction: row;
+         flex-wrap: nowrap;
+
+      }
+
+      .terms {
+         margin: 2px 3px;
+         padding: 30px 2px;
+         font-size: 20pxs;
+      }
+
+      form h2 a {
+         color: rgb(253, 253, 253);
+         text-decoration: none;
+         border: 3px solid black;
+         background: transparent;
+         border-radius: 50px;
+         padding: 12px 30px;
+         position: relative;
+         left: 410px;
+         bottom: 25px;
+      }
+
+      .p {
+         font-size: 50px;
+         color: white;
+         position: relative;
+         left: 240px;
+
+      }
+   </style>
+</head>
+
+<body>
+   <div class="icon">
+      <i class='bx bxl-blogger'></i>
+   </div>
+   <div>
+      <h3 class="Blog">Pakistan Blog's</h3>
+   </div>
+   <h1>Welcome To My Blog Platform</h1>
+   <h3 class="p">Do you have an account.?</h3>
+   <div class="container">
+      <form action="login.php" method="post">
+         <div class="login">
+             <input type="text" name="username" placeholder="Username">
+             <i class='bx bxs-user'></i>
+         </div>
+         <div class="login">
+             <input type="password" name="password" placeholder="password">
+             <i class='bx bxs-lock'></i>
+         </div>
+         <div class="login">
+             <button type="submit">Login</button>
+         </div>
+     </form>
+     
+     
+     
+   </div>
+   <footer>
+      <div class="footer">
+         <div class="terms" id="card-1">
+            <h2>Pakistani Blog Platform</h1>
+               <p>This website will
+                  provide you a short look about pakistan and its cites get your friends here and make them to enjoy
+                  this
+                  site
+               </p>
+
+         </div>
+         <div class="terms" id="card-2"></div>
+         <h4>terms</h4>
+         <ul>
+            <li>your data should be correct </li>
+            <li>You must be at least 13 years old to use our platform.</li>
+            <li>You retain ownership of the content you create and share on the platform.</li>
+            <li>You must not engage in any activity that interferes with or disrupts the platform.</li>
+            <li>You agree to provide accurate, current, and complete information during the registration process.</li>
+            <li>For any questions about these ToS, please contact us at [Contact Email].</li>
+         </ul>
+         <div class="terms" id="card-3">
+            <h4>Privacy Policy</h4>
+            <ul>
+               <li>This Privacy Policy explains how we collect, use, disclose, and protect your information when you use
+                  our platform.</li>
+               <li>We use your information to provide, maintain, and improve our services.</li>
+               <li>We may also collect information automatically through your use of the platform, such as IP address,
+                  browser type, and usage data.</li>
+               <li>For any questions about this Privacy Policy, please contact us at [Contact Email].</li>
+            </ul>
+            <h5>contact us</h5>
+         </div>
+         <div class="terms" id="card-4">
+            <h4>Conditions</h4>
+            <ul>
+               <li>You agree not to use the platform for any unauthorized or illegal activities.</li>
+               <li>By using our platform, you agree to these Conditions of Use, which apply to all users of the
+                  platform.</li>
+               <li>We do not guarantee the accuracy, completeness, or usefulness of any content provided on the
+                  platform.</li>
+               <li>For any questions about these Conditions of Use, please contact us at [Contact Email].</li>
+            </ul>
+            <h5>email us</h5>
+         </div>
+   </footer>
+</body>
+
+</html>
